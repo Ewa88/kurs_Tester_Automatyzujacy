@@ -1,0 +1,1 @@
+# kurs_Tester_Automatyzujacy
