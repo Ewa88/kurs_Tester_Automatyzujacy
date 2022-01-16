@@ -14,14 +14,17 @@ public class ExceptionEx {
             System.out.println("ej nie dziel przez zero ziom!");
             System.out.println(e.getMessage());
         } catch (InputMismatchException e) {
-           System.out.println("nie ten typ");
+            System.out.println("nie ten typ");
             e.printStackTrace();
-        }
-        finally {
+        } finally {
             System.out.println("test bedzie zawsze");
         }
+
+        printEndOfProgram();
+
+    }
+
+    static void printEndOfProgram() {
         System.out.println("Koniec programu");
-
-
     }
 }
