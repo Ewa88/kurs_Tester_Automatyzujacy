@@ -10,12 +10,16 @@ public class JavaReturn {
 
         int result = 5 + getNumber() + getNumber();
         System.out.println(result);
+        printEndOfprogram();
     }
 
-    
+
     public static int getNumber() {
         System.out.println("i'm inside method");
         int number = 5;
         return number;
+    }
+    public static void printEndOfprogram(){
+        System.out.println("koniec programu");
     }
 }
